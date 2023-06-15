@@ -140,7 +140,7 @@
 }
 
 .res-slide img.bg:hover {
-  opacity: 6% !important;
+  opacity: 5% !important;
 }
 
 .res-slide p {
@@ -192,7 +192,7 @@
 /* Trending */
 .col-trending:hover img.bg-trending {
   cursor: pointer;
-  opacity: 6% !important;
+  opacity: 5% !important;
 }
 
 
@@ -214,7 +214,6 @@
 }
 
 .span-icon:hover {
-  
   color: white !important;
 }
 

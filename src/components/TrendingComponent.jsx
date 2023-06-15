@@ -14,7 +14,7 @@ export default function TrendingComponent() {
             <div class={`shadow border-0 card position-relative ${item.color}`}>
               <img
                 src={Background}
-                className="position-absolute bg-trending h-100 object-fit-cover opacity-0"
+                className="position-absolute bg-trending rounded-3 h-100 object-fit-cover opacity-0"
                 width="100%"
                 alt=""
               />
