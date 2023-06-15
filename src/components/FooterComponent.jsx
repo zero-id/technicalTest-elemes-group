@@ -99,7 +99,7 @@ export default function FooterComponent() {
               </a>
             </li>
             <li className="nav-item mb-2">
-              <a href="#" className="nav-link p-0 text-body-secondary">
+              <a  className="nav-link p-0 text-body-secondary">
                 <div className="input-group mb-3">
                   <input
                     type="text"
@@ -113,7 +113,7 @@ export default function FooterComponent() {
                     type="button"
                     id="button-addon2"
                   >
-                    Button
+                    SEND
                   </button>
                 </div>
               </a>
