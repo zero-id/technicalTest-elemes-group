@@ -9,17 +9,17 @@ export default function TrendingComponent() {
       <h2 className="main-color fw-semibold">Receipt</h2>
       <div class="row m-auto row-cols-1 row-cols-md-4 g-4">
         {dataTrending.map((item, index) => (
-          <a href="#" className="text-decoration-none">
+          <a href="#" className="text-decoration-none rounded-3">
             <div key={index} class="col col-trending">
-            <div class={`shadow border-0 card position-relative ${item.color}`}>
+            <div class={`shadow border-0 card rounded-4 position-relative ${item.color}`}>
               <img
                 src={Background}
-                className="position-absolute bg-trending rounded-3 h-100 object-fit-cover opacity-0"
+                className="position-absolute bg-trending rounded-4 h-100 object-fit-cover opacity-0"
                 width="100%"
                 alt=""
               />
               <div class="card-body ">
-                <img src={item.image} alt="" />
+                <img src={item.image} className="rounded-3" alt="" />
                 <h5 class="card-title mt-3">{item.name}</h5>
                 <p class="card-text main-color">{item.category}</p>
                 <img width={80} src={item.rating} alt="" />
