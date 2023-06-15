@@ -9,7 +9,8 @@ export default function TrendingComponent() {
       <h2 className="main-color fw-semibold">Receipt</h2>
       <div class="row m-auto row-cols-1 row-cols-md-4 g-4">
         {dataTrending.map((item, index) => (
-          <div key={index} class="col col-trending">
+          <a href="#" className="text-decoration-none">
+            <div key={index} class="col col-trending">
             <div class={`shadow border-0 card position-relative ${item.color}`}>
               <img
                 src={Background}
@@ -25,12 +26,14 @@ export default function TrendingComponent() {
               </div>
             </div>
           </div>
+          </a>
+          
         ))}
       </div>
       <div className="d-flex align-items-center justify-content-center my-5 pb-5">
-        <button className="border-0 px-4 py-3 fs-6 d-flex rounded-4 main-color-bg text-white shadow main-color-bg text-white">
+        <a href="#" className="border-0 text-decoration-none px-4 py-3 fs-6 d-flex rounded-4 main-color-bg text-white shadow main-color-bg text-white">
           ALL Receipt
-        </button>
+        </a>
       </div>
     </div>
   );

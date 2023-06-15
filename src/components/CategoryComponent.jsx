@@ -25,17 +25,19 @@ function CategoryComponent() {
           
             <SwiperSlide
             key={index}
-            className={`res-slide mb-5  shadow d-flex flex-column align-items-center gap-3 ${item.color}`}
-          >
+            className={`res-slide mb-5 position-relative      `}
+          ><a href="#" className={`text-black w-100  d-flex align-items-center gap-2 text-decoration-none rounded-4 ${item.color} flex-column shadow`}>
             <img className="icon-img pt-3 mt-3" src={item.image} alt="" />
             <img
-              className="position-absolute bg opacity-0 "
+              className="position-absolute top-0 bg start-0 rounded-4 opacity-0"
               src={Background}
               alt=""
             />
             <p className="fw-semibold">{item.name}</p>
-            <p className="mb-4">{item.value} items</p>
+            <p className="mb-4">{item.value} items</p></a>
           </SwiperSlide>
+          
+            
           
           
         ))}

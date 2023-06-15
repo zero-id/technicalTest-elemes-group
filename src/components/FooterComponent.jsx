@@ -154,9 +154,9 @@ export default function FooterComponent() {
             key={`footer-link-item-${index}`}
             className="d-flex flex-column align-items-center gap-2"
           >
-            <button type="" className="border-0">
+            <a href="#" className="border-0">
               <img src={hamburgerMenuIcon} alt="Hamburger Menu Icon" />
-            </button>
+            </a>
             <p className="">{item}</p>
           </li>
         ))}

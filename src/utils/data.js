@@ -51,7 +51,7 @@ export const dataCategory = [
 export const dataTrending = [
   {
     image: Image1,
-    name: "Pizza Peperoni",
+    name: "Pizza Paperoni",
     category: "Pizza",
     rating: Rating4,
     color: "color2",

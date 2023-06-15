@@ -7,7 +7,7 @@ export default function NavbarComponenet() {
       <header className="d-flex  bg-white px-2 container fixed-top flex-wrap align-items-center justify-content-md-between py-3 mb-4 border-bottom">
         <div className="col-md-3 ps-1 mb-md-0">
           <a
-            href="/"
+            href="#"
             className="d-inline-flex link-body-emphasis text-decoration-none"
           >
             <img className="imgnav" src={Logo} alt="" />
@@ -17,7 +17,7 @@ export default function NavbarComponenet() {
         <ul className="item-hidden nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
           <li>
             <a
-              href="/"
+              href="#"
               className="nav-link color-font-grey text-hover text-secondary px-2"
             >
               Home
@@ -25,7 +25,7 @@ export default function NavbarComponenet() {
           </li>
           <li>
             <a
-              href="/"
+              href="#"
               className="nav-link color-font-grey text-hover text-secondary px-2"
             >
               About
@@ -33,7 +33,7 @@ export default function NavbarComponenet() {
           </li>
           <li>
             <a
-              href="/"
+              href="#"
               className="nav-link position-relative text-hover color-font-grey  text-secondary px-2"
             >
               Promotions
@@ -45,7 +45,7 @@ export default function NavbarComponenet() {
           </li>
           <li>
             <a
-              href="/"
+              href="#"
               className="nav-link color-font-grey text-hover text-secondary px-2"
             >
               Blogs
@@ -53,7 +53,7 @@ export default function NavbarComponenet() {
           </li>
           <li>
             <a
-              href="/"
+              href="#"
               className="nav-link color-font-grey text-hover text-secondary px-2"
             >
               Contact Us
