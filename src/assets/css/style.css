@@ -129,6 +129,7 @@
 
 .res-slide a:hover {
   height: 202px !important;
+  transition: 0.3s !important;
 }
 
 .res-slide img.bg {
@@ -141,6 +142,7 @@
 
 .res-slide img.bg:hover {
   opacity: 5% !important;
+  transition: 0.3s !important;
 }
 
 .res-slide p {
